@@ -1,0 +1,37 @@
+.leaflet-container {
+    height: 400px;
+    width: 800px;
+    margin: auto;
+}
+
+/* .parent-map{
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+.box {
+    float: left;
+    width: 14px;
+    height: 13px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    margin-right: 16px;
+  }
+  
+.critical {
+    background: #CB2B3E;
+  }
+  
+.moderate {
+    background: #FFD326;
+  }
+  
+.low {
+    background: #2AAD27;
+  }
+
+.parent-box{
+    display:inline-flex;
+}
